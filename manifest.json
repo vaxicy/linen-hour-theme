@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Linen Hour Theme",
+  "version": "1.0.0",
+  "description": "A quiet neutral Chrome theme: greige chrome, sand toolbar and a parchment New Tab Page.",
+  "icons": {
+    "128": "logo/logo.png"
+  },
+  "theme": {
+    "colors": {
+      "frame":                        [183, 176, 158],
+      "frame_inactive":               [199, 192, 174],
+      "toolbar":                      [207, 198, 177],
+      "tab_text":                     [56, 51, 42],
+      "bookmark_text":                [56, 51, 42],
+      "ntp_background":               [235, 226, 204],
+      "ntp_text":                     [56, 51, 42],
+      "ntp_link":                     [106, 91, 72],
+      "ntp_header":                   [222, 214, 193],
+      "button_background":            [222, 214, 193],
+      "button_background_secondary":  [199, 192, 174],
+      "omnibox_background":           [255, 255, 255],
+      "omnibox_text":                 [56, 51, 42],
+      "toolbar_button_icon":          [56, 51, 42]
+    },
+    "properties": {
+      "ntp_button_background":    [199, 192, 174],
+      "ntp_button_hover":         [176, 169, 151],
+      "ntp_logo_alternate":       1,
+      "ntp_single_row_shortcuts": true
+    },
+    "color_scheme": "light",
+    "default_color_scheme": "light"
+  }
+}
